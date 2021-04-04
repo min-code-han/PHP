@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Document</title>
+  <title>Parameter</title>
 </head>
 <body>
   <h1>WEB</h1>
@@ -16,9 +16,8 @@
       echo $_GET['id'];
     ?>
   </h2>
-  Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-  Enim illum distinctio repudiandae libero sunt? 
-  Inventore, neque. Non dolorum, pariatur exercitationem at ab beatae doloribus, 
-  delectus, repellendus totam quidem sed consequatur?
+  <?php
+    echo file_get_contents("data/".$_GET['id']);
+  ?>
 </body>
 </html>
