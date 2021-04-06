@@ -10,7 +10,13 @@
     <li><a href="index.php?id=HTML">HTML</a></li>
     <li><a href="index.php?id=CSS">CSS</a></li>
     <li><a href="index.php?id=JavaScript">JavaScript</a></li>
+    <li><a href="index.php?id=PHP">PHP</a></li>
   </ol>
+
+  <!-- 1. data 디렉토리 안에 있는 파일의 목록을 가져오세요.
+  2. 파일의 목록 하나하나를 li와 a태그를 이용해서 글 목록을 만드세요. -->
+
+
   <h2>
     <?php
     
