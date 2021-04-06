@@ -10,7 +10,7 @@
     $coworkers = array('mina', 'hoon', 'lee', 'baba');
     array_push($coworkers, 'han','kyung');
     var_dump($coworkers);
-
+    print_r($coworkers);
   ?>
 </body>
 </html>
